@@ -23,6 +23,22 @@ namespace jCrypto
 
             return plainText;
         }
+
+        public static string FromHexString(string hexString)
+        {
+            var ints = new List<int>();
+
+            for (var i = 0; i < hexString.Length/2; i++)
+            {
+                var current = hexString.Substring(i*2, 2);
+                ints.Add(Convert.ToInt32(current, 16));
+            }
+
+            var bytes = ints.Select(Convert.ToByte).ToArray();
+            var actual = Convert.ToBase64String(bytes);
+
+            return actual;
+        }
     }
 
     public static class Base64Extentions

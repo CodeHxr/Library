@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jCrypto", "jCrypto\jCrypto.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{F2AA8CBE-E496-4571-AEDD-6AB3B01BBB18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jBytes", "jBytes\jBytes.csproj", "{1C1E4E74-C1CB-4DC2-824F-60A79F22E99D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F2AA8CBE-E496-4571-AEDD-6AB3B01BBB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2AA8CBE-E496-4571-AEDD-6AB3B01BBB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2AA8CBE-E496-4571-AEDD-6AB3B01BBB18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1E4E74-C1CB-4DC2-824F-60A79F22E99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1E4E74-C1CB-4DC2-824F-60A79F22E99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1E4E74-C1CB-4DC2-824F-60A79F22E99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1E4E74-C1CB-4DC2-824F-60A79F22E99D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

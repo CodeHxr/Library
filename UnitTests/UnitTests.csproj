@@ -36,6 +36,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -52,12 +56,17 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="jBytes\jByteTests.cs" />
     <Compile Include="jCrypto\PublicKeyTests.cs" />
     <Compile Include="jCrypto\Base64Tests.cs" />
     <Compile Include="jCrypto\AESTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\jBytes\jBytes.csproj">
+      <Project>{1c1e4e74-c1cb-4dc2-824f-60a79f22e99d}</Project>
+      <Name>jBytes</Name>
+    </ProjectReference>
     <ProjectReference Include="..\jCrypto\jCrypto.csproj">
       <Project>{0dc6860c-ba10-4d41-a28d-bedf8176509f}</Project>
       <Name>jCrypto</Name>
