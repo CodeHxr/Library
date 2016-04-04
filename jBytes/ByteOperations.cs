@@ -47,5 +47,12 @@ namespace jBytes
 
             return xorString;
         }
+
+        public static byte[] XorCypher(byte[] source, byte cypher)
+        {
+            var bytesOut = source.Select(b => (byte)(b ^ cypher)).ToArray();
+
+            return bytesOut;
+        }
     }
 }

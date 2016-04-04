@@ -80,5 +80,6 @@ namespace UnitTests.jBytes
 
             // Assert: NOP - exception is expected
         }
+
     }
 }
