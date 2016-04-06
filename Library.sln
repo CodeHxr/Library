@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jBytes", "jBytes\jBytes.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jSpriteEngine", "jSpriteEngine\jSpriteEngine.csproj", "{82395BE8-2D34-477B-908F-66DCDC86BDEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jMath", "jMath\jMath.csproj", "{F6921895-7181-4537-B4A5-1BFB74D29C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jMusic", "jMusic\jMusic.csproj", "{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{82395BE8-2D34-477B-908F-66DCDC86BDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82395BE8-2D34-477B-908F-66DCDC86BDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82395BE8-2D34-477B-908F-66DCDC86BDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6921895-7181-4537-B4A5-1BFB74D29C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6921895-7181-4537-B4A5-1BFB74D29C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6921895-7181-4537-B4A5-1BFB74D29C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6921895-7181-4537-B4A5-1BFB74D29C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

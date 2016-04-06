@@ -54,27 +54,5 @@ namespace UnitTests.jCrypto
             // Assert
             Assert.AreEqual(expected, actual);
         }
-
-        [TestMethod]
-        public void killme()
-        {
-            const string source = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736";
-            var sourceBytes = ByteOperations.HexToBytes(source);
-            var metric = new Dictionary<byte, string>();
-
-            for (var i = byte.MinValue; i < byte.MaxValue; i++)
-            {
-                var xorByte = Convert.ToByte(i);
-                var cypherBytes = ByteOperations.XorCypher(sourceBytes, xorByte);
-                var cypherText = ByteOperations.BytesToHex(cypherBytes).Base64Decode();
-                Console.WriteLine($"{xorByte:int}: {cypherText}");
-                metric.Add(xorByte, cypherText);
-            }
-
-            var bestHeuristic = metric.OrderBy(m => m.Value.Count(c=>c=='e' || c=='E')).First().Key;
-            var bestResult = metric[bestHeuristic];
-
-            Assert.AreEqual("", bestResult);
-        }
     }
 }

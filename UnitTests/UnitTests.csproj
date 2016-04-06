@@ -60,6 +60,7 @@
     <Compile Include="jCrypto\PublicKeyTests.cs" />
     <Compile Include="jCrypto\Base64Tests.cs" />
     <Compile Include="jCrypto\AESTests.cs" />
+    <Compile Include="jMath\Vectory2DTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +71,10 @@
     <ProjectReference Include="..\jCrypto\jCrypto.csproj">
       <Project>{0dc6860c-ba10-4d41-a28d-bedf8176509f}</Project>
       <Name>jCrypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jMath\jMath.csproj">
+      <Project>{F6921895-7181-4537-B4A5-1BFB74D29C76}</Project>
+      <Name>jMath</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
