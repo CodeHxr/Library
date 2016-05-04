@@ -92,5 +92,31 @@ namespace UnitTests.jMath
             // Assert
             Assert.AreEqual(1, vNormalized.Length);
         }
+
+        [TestMethod]
+        public void Vector2D_IsUnitVector_TrueIfTrue()
+        {
+            // Arrange
+            var v = new Vector2D(0, 1);
+
+            // Act
+            var result = Vector2D.IsUnitVector(v);
+
+            // Assert
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void Vector2D_IsUnitVector_FalseIfFalse()
+        {
+            // Arrange
+            var v = new Vector2D(1, 1);
+
+            // Act
+            var result = Vector2D.IsUnitVector(v);
+
+            // Assert
+            Assert.IsFalse(result);
+        }
     }
 }

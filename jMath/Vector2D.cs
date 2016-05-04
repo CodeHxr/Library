@@ -84,7 +84,7 @@ namespace jMath
 
         #endregion
 
-        #region Functions
+        #region Methods
         public Vector2D Normalize()
         {
             var scalar = 1 / Length;
@@ -97,6 +97,13 @@ namespace jMath
             var dotProduct = (X * v2.X) + (Y * v2.Y);
 
             return dotProduct;
+        }
+        #endregion
+
+        #region Static Methods
+        public static bool IsUnitVector(Vector2D v)
+        {
+            return v.Length == 1;
         }
         #endregion
     }

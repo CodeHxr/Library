@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jCrypto", "jCrypto\jCrypto.csproj", "{0DC6860C-BA10-4D41-A28D-BEDF8176509F}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jMath", "jMath\jMath.csproj", "{F6921895-7181-4537-B4A5-1BFB74D29C76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jMusic", "jMusic\jMusic.csproj", "{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jImaging", "jImaging\jImaging.csproj", "{AD51CAF5-6A10-439D-95D9-D9693207D090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD51CAF5-6A10-439D-95D9-D9693207D090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD51CAF5-6A10-439D-95D9-D9693207D090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD51CAF5-6A10-439D-95D9-D9693207D090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD51CAF5-6A10-439D-95D9-D9693207D090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

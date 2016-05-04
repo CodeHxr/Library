@@ -60,7 +60,9 @@
     <Compile Include="jCrypto\PublicKeyTests.cs" />
     <Compile Include="jCrypto\Base64Tests.cs" />
     <Compile Include="jCrypto\AESTests.cs" />
-    <Compile Include="jMath\Vectory2DTests.cs" />
+    <Compile Include="jMath\Vector2DTests.cs" />
+    <Compile Include="jMusic\NoteTests.cs" />
+    <Compile Include="jMusic\ScaleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +77,10 @@
     <ProjectReference Include="..\jMath\jMath.csproj">
       <Project>{F6921895-7181-4537-B4A5-1BFB74D29C76}</Project>
       <Name>jMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jMusic\jMusic.csproj">
+      <Project>{4D5EE23D-FDEE-411B-8236-9B45D5854BE8}</Project>
+      <Name>jMusic</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

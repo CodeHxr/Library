@@ -16,7 +16,7 @@ namespace jSpriteEngine
         #endregion
 
         #region Public Properties
-        public float Scale { get; set; } = 1.0f;
+        public double Scale { get; set; } = 1.0f;
         public PointF Position { get; set; } = new PointF(0, 0);
         public string ActiveFrameset { get; set; } = "";
         public int FramesPerSecond
@@ -65,7 +65,7 @@ namespace jSpriteEngine
                 _frames.First();
 
             var sourceRect = frame;
-            var destRect = new RectangleF(Position, new SizeF(sourceRect.Width * Scale, sourceRect.Height * Scale));
+            var destRect = new RectangleF(Position, new SizeF(sourceRect.Width * (float)Scale, sourceRect.Height * (float)Scale));
 
             g.DrawImage(_sourceImage, destRect, sourceRect, GraphicsUnit.Pixel);
         }
