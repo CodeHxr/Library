@@ -31,5 +31,10 @@ namespace jImaging
                 Numerator.ToString() : 
                 string.Format($"{Numerator}/{Denominator}");
         }
+
+        public double Value()
+        {
+            return (double) Numerator/Denominator;
+        }
     }
 }

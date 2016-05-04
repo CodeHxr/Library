@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ExifEnumerations.cs" />
     <Compile Include="ExifFraction.cs" />
+    <Compile Include="ExifGpsLocation.cs" />
     <Compile Include="ExifReader.cs" />
     <Compile Include="ExifSort.cs" />
     <Compile Include="ExifTagValue.cs" />
