@@ -25,11 +25,6 @@ namespace jImaging
 
         public ExifFraction(int numerator) : this(numerator, 1){}
 
-        public double Value()
-        {
-            return (double)Numerator/Denominator;
-        }
-
         public override string ToString()
         {
             return Denominator == 1 ? 
